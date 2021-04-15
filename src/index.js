@@ -13,7 +13,7 @@ tasklist.innerHTML+=`<li>${newTask}
 </li>
 `;
 tasklist.addEventListener("click", function(e){
-  if (e.traget.data-set==="delete") {
+  if (e.traget.data==="delete") {
     e.traget.parentEleemt.remove();
   }
 }
