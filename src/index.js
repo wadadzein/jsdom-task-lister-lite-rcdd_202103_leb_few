@@ -12,7 +12,7 @@ tasklist.innerHTML+=`<li>${newTask}
 <button data-set="delete">X for delete</button>
 </li>
 tasklist.addEventListener("click", function(e){
-  if e.traget.dataset=true{
+  if e.traget.dataset==="delete;{
     e.traget.parentEleemt.remove();
   }
 }
