@@ -8,12 +8,17 @@ const todos= document.getElementById("new-task-description").value;
 e.preventDefault();
 list.innerHTML+= `<li>
 ${todos}
-<button dataset="delete"
+<button data=set="delete">X for delete</button>
 </li>`;
 
 form.reset();
 });
 
-
+list.addEventListener("click", function(e){
+  if(e.target.dataset="delete"){
+    e.target.parentElement.remove();
+  }
+  
+})
 
 });
