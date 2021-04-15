@@ -12,6 +12,6 @@ ${todos}
 
 
 });
-e.reset();
+form.reset();
 
 });
