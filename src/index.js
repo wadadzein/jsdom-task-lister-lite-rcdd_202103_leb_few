@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-let form= document.getElementById
+const form= document.getElementById("create-task-form");
+const list= document.getElementById("")
+
+
+});
