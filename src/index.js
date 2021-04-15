@@ -9,7 +9,7 @@ taskForm.addEventListener("submit", function (e){
 e.preventDefault();
 const newTask= document.querySelector("#new-task-description").value;
 tasklist.innerHTML+=`<li>${newTask}
-<button data-set=action> delete button <button>
+<button data-set="delete"> delete button <button>
 </li>`;
 taskForm.reset();
 });
