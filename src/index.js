@@ -1,7 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 const form= document.getElementById("create-task-form");
-const list= document.getElementById("")
+const list= document.getElementById("list");
+
+form.addEventListener("submit",function(e){
+const todos= document.getElementById
+
+
+});
 
 
 });
