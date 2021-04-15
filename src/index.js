@@ -11,7 +11,9 @@ const newTask= document.querySelector("#new-task-description").value;
 tasklist.innerHTML+=`<li>${newTask}
 <button data-set="delete">X for delete<button>
 
-</li>`;
+</li>
+
+`;
 
 
 
