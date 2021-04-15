@@ -10,8 +10,8 @@ list.innerHTML+= `<li>
 ${todos}
 </li>`;
 
-
-});
 form.reset();
+});
+
 
 });
