@@ -1,28 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-
-const taskForm= document.querySelector("#create-task-form");
-const tasklist= document.querySelector("#tasks");
-
-taskForm.addEventListener("submit", function (e){
-e.preventDefault();
-const newTask= document.querySelector("#new-task-description").value;
-tasklist.innerHTML+=`<li>${newTask}
-<button data-set="delete">X for delete</button>
-</li>
-`;
-tasklist.addEventListener("click", function(e){
-  if (e.target.dataset.set==="delete") {
-    e.target.parentElement.remove();
-  }
-}
-);
-
-
-
-
-taskForm.reset();
-});
-
-
-});
+let form= document.getElementById
