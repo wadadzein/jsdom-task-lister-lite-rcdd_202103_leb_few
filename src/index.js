@@ -15,7 +15,7 @@ form.reset();
 });
 
 list.addEventListener("click", function(e){
-  if(e.target.dataset="delete"){
+  if(e.target.dataset==="delete"){
     e.target.parentElement.remove();
   }
   
