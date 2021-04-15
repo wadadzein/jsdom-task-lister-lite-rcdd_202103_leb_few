@@ -4,7 +4,8 @@ const form= document.getElementById("create-task-form");
 const list= document.getElementById("list");
 
 form.addEventListener("submit",function(e){
-const todos= document.getElementById
+const todos= document.getElementById("new-task-description").value;
+
 
 
 });
