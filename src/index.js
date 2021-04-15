@@ -8,7 +8,10 @@ const tasklist= document.querySelector("#tasks");
 taskForm.addEventListener("submit", function (e){
 e.preventDefault();
 const newTask= document.querySelector("#new-task-description").value;
-tasklist.innerHTML+=`<li>${newTask}<button data-set="delete">X for delete<button></li>`;
+tasklist.innerHTML+=`<li>${newTask}
+<button data-set="delete">X for delete<button>
+
+</li>`;
 
 
 
